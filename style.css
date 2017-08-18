@@ -1,0 +1,51 @@
+#container > button {
+  height: 100px;
+  outline: solid 1px white;
+  font-family: Helvetica , sans-serif;
+  font-size: 28px;
+}
+
+#container > div {
+  height: 100px;
+  outline: solid 1px white;
+  font-family: Helvetica , sans-serif;
+  font-size: 28px;
+}
+
+
+
+#container {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#outputBox {
+  line-height: 100px;
+}
+
+
+.short {
+  flex-basis: 25%;
+  line-height: 100px;
+}
+
+
+.long {
+  flex-basis: 75%;
+}
+
+
+.dark {
+  color: #EEF6EB;
+  background-color: #61B34F;
+}
+
+
+.light {
+  color: #547F4B;
+  background-color: #82C276;
+}
